@@ -1,6 +1,6 @@
 modLoader = "javafml"
 loaderVersion = "[43,)"
-issueTrackerURL = "https://github.com/YukkuriC/TODO/issues"
+issueTrackerURL = "https://github.com/YukkuriC/CreateCollectionBundles/issues"
 license = "MIT"
 
 [[mods]]
@@ -12,8 +12,8 @@ description = '''
 Adds feature for Create logistic system to extract items from several types of blocks
 '''
 logoFile = "logo.png"
-updateJSONURL = "https://api.modrinth.com/updates/MRC1BQpK/forge_updates.json"
-displayURL = "https://modrinth.com/mod/create_collection_bundles"
+updateJSONURL = "https://api.modrinth.com/updates/dRqIMksA/forge_updates.json"
+displayURL = "https://modrinth.com/mod/create-collection-bundles"
 
 [[dependencies.create_collection_bundles]]
 modId = "forge"
@@ -32,6 +32,13 @@ side = "BOTH"
 [[dependencies.create_collection_bundles]]
 modId = "create"
 mandatory = true
+versionRange = "[0,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.create_collection_bundles]]
+modId = "refinedstorage"
+mandatory = false
 versionRange = "[0,)"
 ordering = "AFTER"
 side = "BOTH"

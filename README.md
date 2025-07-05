@@ -1,10 +1,10 @@
 # Create: Collection Bundles
 
-[![Curseforge](https://badges.moddingx.org/curseforge/versions/TODO) ![CurseForge](https://badges.moddingx.org/curseforge/downloads/TODO)](https://www.curseforge.com/minecraft/mc-mods/TODO)  
-[![Modrinth](https://badges.moddingx.org/modrinth/versions/TODO) ![Modrinth](https://badges.moddingx.org/modrinth/downloads/TODO)](https://modrinth.com/mod/TODO)
+[![Curseforge](https://badges.moddingx.org/curseforge/versions/1300551) ![CurseForge](https://badges.moddingx.org/curseforge/downloads/1300551)](https://www.curseforge.com/minecraft/mc-mods/create-collection-bundles)  
+[![Modrinth](https://badges.moddingx.org/modrinth/versions/dRqIMksA) ![Modrinth](https://badges.moddingx.org/modrinth/downloads/dRqIMksA)](https://modrinth.com/mod/create-collection-bundles)
 
 An experimental mod adding feature for `Create` logistic system to extract items from several types of blocks
-![usages](static/usages.png)
+![usages](https://github.com/YukkuriC/CreateCollectionBundles/blob/main/static/usages.png?raw=true)
 
 # Current Contents
 

@@ -2,13 +2,14 @@
     "mock": false,
     "MR": {
         "dependencies": [
-            "TODO"
+            "LNytGWDc"
         ],
         "optional": [
+            "KDvYkUg3"
         ],
-        "project_id": "TODO"
+        "project_id": "dRqIMksA"
     },
     "CF": {
-        "project_id": "TODO"
+        "project_id": "1300551"
     }
 }

@@ -8,9 +8,9 @@
     "YukkuriC"
   ],
   "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/TODO",
-    "sources": "https://github.com/YukkuriC/TODO",
-    "issues": "https://github.com/YukkuriC/TODO/issues"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/create-collection-bundles",
+    "sources": "https://github.com/YukkuriC/CreateCollectionBundles",
+    "issues": "https://github.com/YukkuriC/CreateCollectionBundles/issues"
   },
   "license": "MIT",
   "icon": "logo.png",

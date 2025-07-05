@@ -1,0 +1,14 @@
+{
+    "mock": false,
+    "MR": {
+        "dependencies": [
+            "TODO"
+        ],
+        "optional": [
+        ],
+        "project_id": "TODO"
+    },
+    "CF": {
+        "project_id": "TODO"
+    }
+}

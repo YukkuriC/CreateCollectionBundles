@@ -1,0 +1,14 @@
+{
+  "required": false,
+  "package": "io.yukkuric.ccb.forge.rs.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "client": [
+  ],
+  "mixins": [
+    "CachedItemStackListImp"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

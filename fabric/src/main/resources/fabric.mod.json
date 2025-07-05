@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "create_collection_bundles",
+  "version": "${version}",
+  "name": "Create: Collection Bundles",
+  "description": "Adds feature for Create logistic system to extract items from several types of blocks",
+  "authors": [
+    "YukkuriC"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/TODO",
+    "sources": "https://github.com/YukkuriC/TODO",
+    "issues": "https://github.com/YukkuriC/TODO/issues"
+  },
+  "license": "MIT",
+  "icon": "logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.yukkuric.ccb.fabric.CCBFabric"
+    ],
+    "client": [
+      "io.yukkuric.ccb.fabric.client.CCBFabricClient"
+    ]
+  },
+  "mixins": [
+    "ccb.mixins.fabric.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "create": ">=0"
+  },
+  "suggests": {}
+}

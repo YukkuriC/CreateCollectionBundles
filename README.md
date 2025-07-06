@@ -10,12 +10,13 @@ An experimental mod adding feature for `Create` logistic system to extract items
 
 -   Carving pumpkins by extracting its seed
 -   `Refined Storage` compat: extracting items inside network through:
-    -   controller blocks
+    -   (normal & creative) controller blocks
     -   network transmitter/receiver blocks
     -   **NOTE:** due to some undefined behaviors, _inserting_ items into these blocks are not supported, only _extracting_ allowed
 
 # Future Plans
 
 -   [ ] supporting `AE2` network
+-   [ ] supporting QIO network from `Mekanism`
 -   [ ] custom registration API via `KubeJS`
 -   [ ] porting to Fabric and other versions

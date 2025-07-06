@@ -15,7 +15,7 @@ import java.util.WeakHashMap;
 
 public class ExposedRSNetwork implements IItemHandler {
     static final boolean ENABLE_INSERT = false;
-    static final int BUFFER_FOR_IMPORT = 9;
+    static final int BUFFER_FOR_IMPORT = 0; // not now
 
     private static final Map<INetwork, ExposedRSNetwork> CACHED = new WeakHashMap<>();
     public static ExposedRSNetwork get(@NotNull INetwork network) {

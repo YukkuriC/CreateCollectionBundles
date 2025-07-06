@@ -1,0 +1,15 @@
+{
+  "required": false,
+  "package": "io.yukkuric.ccb.forge.ae.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "client": [
+  ],
+  "mixins": [
+    "CachedKeyCounterListImpl",
+    "MixinStorageService"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

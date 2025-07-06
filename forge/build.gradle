@@ -6,6 +6,7 @@ loom {
     forge {
         mixinConfig "ccb.mixins.forge.json"
         mixinConfig "ccb.mixins.forge.rs.json"
+        mixinConfig "ccb.mixins.forge.ae.json"
     }
 }
 
@@ -42,6 +43,9 @@ dependencies {
 
     // rs
     modImplementation "curse.maven:refined-storage-243076:4844585"
+
+    // AE2
+    modImplementation "curse.maven:applied-energistics-2-223794:6629570"
 }
 
 processResources {

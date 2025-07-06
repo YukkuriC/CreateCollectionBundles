@@ -3,7 +3,7 @@
 [![Curseforge](https://badges.moddingx.org/curseforge/versions/1300551) ![CurseForge](https://badges.moddingx.org/curseforge/downloads/1300551)](https://www.curseforge.com/minecraft/mc-mods/create-collection-bundles)  
 [![Modrinth](https://badges.moddingx.org/modrinth/versions/dRqIMksA) ![Modrinth](https://badges.moddingx.org/modrinth/downloads/dRqIMksA)](https://modrinth.com/mod/create-collection-bundles)
 
-An experimental mod adding feature for `Create` logistic system to extract items from several types of blocks
+An experimental mod adding feature for `Create` logistic system (packagers and traditional funnels) to extract items from several types of blocks
 ![usages](https://github.com/YukkuriC/CreateCollectionBundles/blob/main/static/usages.png?raw=true)
 
 # Current Contents
@@ -13,10 +13,15 @@ An experimental mod adding feature for `Create` logistic system to extract items
     -   (normal & creative) controller blocks
     -   network transmitter/receiver blocks
     -   **NOTE:** due to some undefined behaviors, _inserting_ items into these blocks are not supported, only _extracting_ allowed
+-   `Applied Energistics 2` compat: extracting items inside grid through:
+    -   controller blocks
+    -   **NOTE:** same as above, _inserting_ not allowed yet
 
 # Future Plans
 
--   [ ] supporting `AE2` network
--   [ ] supporting QIO network from `Mekanism`
--   [ ] custom registration API via `KubeJS`
--   [ ] porting to Fabric and other versions
+-   ~~supporting `AE2` network~~
+    -   interaction thru cables
+-   supporting QIO network from `Mekanism`
+-   custom registration API via `KubeJS`
+-   porting to Fabric and other versions
+-   special support for chutes

@@ -30,6 +30,12 @@ dependencies {
 
     common(project(path: ':common', configuration: 'namedElements')) { transitive false }
     shadowBundle project(path: ':common', configuration: 'transformProductionFabric')
+
+    // create
+    modImplementation "curse.maven:create-fabric-624165:5982726"
+
+    // AE2
+    modImplementation "curse.maven:create-fabric-624165:5982726"
 }
 
 processResources {

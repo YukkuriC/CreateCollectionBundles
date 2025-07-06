@@ -40,7 +40,7 @@ public class ExposedRSNetwork implements IItemHandler {
 
     @NotNull
     public ItemStack getStackInSlot(int slot) {
-        if (slot < BUFFER_FOR_IMPORT) return ItemStack.EMPTY;
+        if (slot < BUFFER_FOR_IMPORT || slot >= getSlots()) return ItemStack.EMPTY;
         return getList()[slot - BUFFER_FOR_IMPORT].getStack();
     }
 
@@ -54,6 +54,7 @@ public class ExposedRSNetwork implements IItemHandler {
     @NotNull
     public ItemStack extractItem(int slot, int amount, boolean simulate) {
         var stack = getStackInSlot(slot);
+        if (stack.isEmpty()) return ItemStack.EMPTY;
         return network.extractItem(stack, amount, simulate ? Action.SIMULATE : Action.PERFORM);
     }
 

@@ -16,8 +16,14 @@ public abstract class MixinInvBehaviour extends CapManipulationBehaviourBase<IIt
 
     @Override
     public void findNewCapability() {
+        var world = this.getWorld();
         var target = getTarget();
-        var cap = ExtInvPoolForge.get().getInventory(getWorld(), target.getConnectedPos(), target.getOppositeFace());
+        var targetPos = target.getConnectedPos();
+        if (!world.isLoaded(targetPos)) {
+            targetCapability = LazyOptional.empty();
+            return;
+        }
+        var cap = ExtInvPoolForge.get().getInventory(world, targetPos, target.getOppositeFace());
         if (cap == null) super.findNewCapability();
         else targetCapability = LazyOptional.of(() -> cap);
     }

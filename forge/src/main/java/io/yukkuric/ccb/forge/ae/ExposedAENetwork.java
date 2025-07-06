@@ -18,8 +18,8 @@ import org.jetbrains.annotations.NotNull;
 import java.util.*;
 
 public class ExposedAENetwork implements IItemHandler {
-    static final boolean ENABLE_INSERT = true;
-    static final int BUFFER_FOR_IMPORT = 1;
+    static final boolean ENABLE_INSERT = false;
+    static final int BUFFER_FOR_IMPORT = 0;
 
     private static final Map<IStorageService, ExposedAENetwork> CACHED = new WeakHashMap<>();
     public static ExposedAENetwork get(@NotNull IStorageService storage) {

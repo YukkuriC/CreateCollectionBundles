@@ -41,6 +41,9 @@ dependencies {
     // create
     modImplementation "curse.maven:create-328085:6641603"
 
+    // kjs
+    modImplementation "curse.maven:kubejs-238086:5853326"
+
     // rs
     modImplementation "curse.maven:refined-storage-243076:4844585"
 
